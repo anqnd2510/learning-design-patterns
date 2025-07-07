@@ -20,28 +20,3 @@ Khi tìm hiểu từng mẫu thiết kế (pattern), cần nắm vững những 
 
 ---
 
-## 📚 Danh sách các pattern đã học
-
-| Tên Pattern | Thư mục | Trạng thái |
-|-------------|---------|------------|
-| ✅ Strategy Pattern | [`strategy-pattern/`](./strategy-pattern/) | Đã hoàn thành |
-| ⏳ Factory Pattern | `factory-pattern/` | Đang phát triển |
-| ⏳ Singleton Pattern | `singleton-pattern/` | Đang phát triển |
-| ⏳ Observer Pattern | `observer-pattern/` | Đang phát triển |
-
----
-
-## 🛠 Công nghệ sử dụng
-
-- ✅ TypeScript
-- ✅ Node.js (kèm `ts-node`)
-- ✅ Mỗi pattern tách riêng folder dễ chạy – dễ hiểu
-- ✅ Format chuẩn: Interface → Concrete → Context → Demo
-
----
-
-## 📦 Cách chạy ví dụ
-
-1. Cài đặt dependencies nếu chưa có:
-```bash
-npm install -D ts-node typescript
