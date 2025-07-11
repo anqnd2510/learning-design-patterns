@@ -9,3 +9,4 @@ export class PaymentContext {
     this.strategy.pay(amount);
   }
 }
+// Context chỉ giữ tham chiếu và sử dụng nó, không chứa chính hành vi

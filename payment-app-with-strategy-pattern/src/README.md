@@ -19,3 +19,9 @@
 > - Có nhiều thuật toán khác nhau cho cùng một nhiệm vụ.
 > - Cần thay đổi thuật toán dễ dàng tại runtime.
 > - Muốn tránh sử dụng `if/else` phức tạp và muốn tuân theo nguyên tắc **Open/Closed** (mở rộng mà không sửa đổi).
+
+---
+
+## ❓ Nếu quá lạm dụng Strategy Pattern thì?
+
+> Lạm dụng Strategy Pattern (chia nhỏ quá nhiều hành vi không cần thiết) sẽ khiến code rối rắm, vi phạm nguyên tắc KISS (Keep It Simple, Stupid).
